@@ -19,7 +19,6 @@ services:
             - "host.docker.internal:host-gateway"
     mysql:
         image: mysql:5.7
-        restart: always
         environment:
             MYSQL_ROOT_PASSWORD: 'root'
             MYSQL_USER: 'master'
